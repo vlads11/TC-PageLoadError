@@ -1,55 +1,8 @@
 {
-  "name": "zwift-testcafe",
-  "version": "1.0.0",
-  "description": "Zwift collection of unit tests for TestCafe.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zwift/QA-Automation.git"
+    "type": "git"
   },
-  "keywords": [
-    "zwift",
-    "qa",
-    "unit-test",
-    "javascript",
-    "testcafe"
-  ],
-  "author": "Zwift",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zwift/QA-Automation/issues"
-  },
-  "homepage": "https://github.com/zwift/QA-Automation#readme",
   "devDependencies": {
-    "allure-commandline": "2.13.8",
-    "axe-html-reporter": "2.2.3",
-    "axe-testcafe": "3.0.0",
-    "axe-core": "3.5.6",
-    "axios": "0.21.4",
-    "dateformat": "3.0.3",
-    "eslint": "7.30.0",
-    "joi": "17.4.1",
-    "moment": "^2.29.3",
-    "moment-timezone": "0.5.31",
-    "testcafe": "1.18.6",
-    "testcafe-browser-provider-selenium": "1.2.0",
-    "testcafe-reporter-allure": "1.0.5",
-    "testcafe-reporter-html": "1.4.6",
-    "testcafe-reporter-json": "2.2.0",
-    "testcafe-reporter-testrail": "0.6.3",
-    "testcafe-reporter-xunit": "2.1.0",
-    "xml-js": "1.6.11",
-    "yargs": "16.2.0",
-    "zlib": "1.0.5"
-  },
-  "dependencies": {
-    "@sideway/address": "4.1.2",
-    "@sideway/formula": "3.0.0",
-    "@sideway/pinpoint": "2.0.0",
-    "@testcafe-community/axe": "3.5.0",
-    "path-to-regexp": "6.2.0"
+    "testcafe": "1.18.6"
   }
 }
