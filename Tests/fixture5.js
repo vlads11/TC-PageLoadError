@@ -10,6 +10,9 @@ fixture `Shopify HowZwiftWorkspage`
         await t.navigateTo(homeURL);
     })
 
-test('Slice0 Get Started Button goes to Create Account page', async t => {
-    await t.click(primaryWhyZwiftLink);
-})
+for (let i = 0; i < 20; i++) {
+    test('Slice0 Get Started Button goes to Create Account page', async t => {
+        await t.click(primaryWhyZwiftLink);
+    })
+}
+
