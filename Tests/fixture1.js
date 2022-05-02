@@ -1,12 +1,8 @@
 import { Selector } from "testcafe";
-import { t } from "testcafe";
 import { test } from 'testcafe';
 
-
 let homeURL = 'https://uk.zwift.com';
-
-//slice0
-let slice0 = Selector('[class=\'image-with-text-overlay__banner columns one-whole image-crop-none\']').withText('WE BLEND FITNESS WITH ADVENTURE');
+let primaryWhyZwiftLink = Selector('[class*=\'navbar-link header__link\']').withAttribute('href','/pages/why-zwift');
 
 fixture `Shopify HowZwiftWorkspage`
     .page('about:blank')
@@ -15,5 +11,5 @@ fixture `Shopify HowZwiftWorkspage`
     })
 
 test('Slice0 Get Started Button goes to Create Account page', async t => {
-    await t.click(slice0);
+    await t.click(primaryWhyZwiftLink);
 })
